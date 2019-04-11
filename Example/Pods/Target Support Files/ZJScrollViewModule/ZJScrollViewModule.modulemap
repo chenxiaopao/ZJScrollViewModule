@@ -1,0 +1,6 @@
+framework module ZJScrollViewModule {
+  umbrella header "ZJScrollViewModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

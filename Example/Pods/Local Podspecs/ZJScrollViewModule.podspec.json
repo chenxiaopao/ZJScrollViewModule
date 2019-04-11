@@ -1,0 +1,28 @@
+{
+  "name": "ZJScrollViewModule",
+  "version": "0.1.0",
+  "summary": "A short description of ZJScrollViewModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenxiaopao/ZJScrollViewModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenxiaopao": "158584983@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/chenxiaopao/ZJScrollViewModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZJScrollViewModule/Classes/ZJScrollViewModule.{h,m}",
+  "subspecs": [
+    {
+      "name": "ZJScrollView",
+      "source_files": "ZJScrollViewModule/Classes/ZJScrollView/*.{h,m}"
+    }
+  ]
+}
