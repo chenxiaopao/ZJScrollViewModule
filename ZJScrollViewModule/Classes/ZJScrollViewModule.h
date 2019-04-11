@@ -4,13 +4,12 @@
 //
 //  Created by maimaimai on 2019/4/12.
 //
-
-#import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface ZJScrollViewModule : NSObject
-
-@end
-
-NS_ASSUME_NONNULL_END
+#import "UIView+ZJFrame.h"
+#import "ZJScrollPageViewDelegate.h"
+#import "ZJCollectionView.h"
+#import "ZJContentView.h"
+#import "ZJScrollPageView.h"
+#import "ZJScrollPageViewDelegate.h"
+#import "ZJScrollSegmentView.h"
+#import "ZJSegmentStyle.h"
+#import "ZJTitleView.h"

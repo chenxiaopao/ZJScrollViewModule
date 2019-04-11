@@ -11,15 +11,6 @@
 #endif
 
 #import "ZJScrollViewModule.h"
-#import "UIView+ZJFrame.h"
-#import "UIViewController+ZJScrollPageController.h"
-#import "ZJCollectionView.h"
-#import "ZJContentView.h"
-#import "ZJScrollPageView.h"
-#import "ZJScrollPageViewDelegate.h"
-#import "ZJScrollSegmentView.h"
-#import "ZJSegmentStyle.h"
-#import "ZJTitleView.h"
 
 FOUNDATION_EXPORT double ZJScrollViewModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZJScrollViewModuleVersionString[];

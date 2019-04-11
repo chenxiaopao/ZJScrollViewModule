@@ -18,11 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZJScrollViewModule/Classes/ZJScrollViewModule.{h,m}",
-  "subspecs": [
-    {
-      "name": "ZJScrollView",
-      "source_files": "ZJScrollViewModule/Classes/ZJScrollView/*.{h,m}"
-    }
-  ]
+  "source_files": "ZJScrollViewModule/Classes/ZJScrollViewModule.{h,m}"
 }

@@ -1,7 +1,5 @@
 PODS:
-  - ZJScrollViewModule (0.1.0):
-    - ZJScrollViewModule/ZJScrollView (= 0.1.0)
-  - ZJScrollViewModule/ZJScrollView (0.1.0)
+  - ZJScrollViewModule (0.1.0)
 
 DEPENDENCIES:
   - ZJScrollViewModule (from `../`)
@@ -11,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZJScrollViewModule: db912991948fe5e692fc6028042835b8eb345053
+  ZJScrollViewModule: 89034eff5ae5fa1e0e282553d907c6929ca2b759
 
 PODFILE CHECKSUM: 3b2fa4dd2f726f2dad2cec47bf71203693aace2d
 
