@@ -7,17 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012637A5B709DB4BE4ED3FAA2A8457E7 /* ZJScrollViewModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D62F725438A92F4C735A6A4DA15F1D69 /* ZJScrollViewModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19717A1514F23723FE1D23A3AF231076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		1C8C7528D98C9067E9A58851DEC23F1E /* ZJScrollViewModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F4C082E86B0BA35B77AD28A98E2851 /* ZJScrollViewModule-dummy.m */; };
+		1F852F95920DEA751C08C48ADE4EC16B /* ZJCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = A246DCAA7D940560D33CB3DF4739548A /* ZJCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		262423E384537029B4D4F7FDDDE82732 /* ZJContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEA2B7785C48DA26C429B609B6DAF4E /* ZJContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29EBE0923E61CD62BA3C1DDBE1545A15 /* Pods-ZJScrollViewModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C78676BDB8E2454A1CB1386391870EB /* Pods-ZJScrollViewModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43425CE5B028B52AFE458EF0433B328C /* ZJScrollViewModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B42A9CB1E229B0822C15717A063E70 /* ZJScrollViewModule-dummy.m */; };
+		3F4A6506C97AAA7827319A47497A6F54 /* ZJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F527CD919BB05F417C1CDCE19EDFAA /* ZJCollectionView.m */; };
+		4F8CF550FBF5AA268DD1BC96F2B5F4C7 /* UIViewController+ZJScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C22C21C2823B611B58D53BD15B7575A /* UIViewController+ZJScrollPageController.m */; };
+		5E519B8FF92C888FE477E65F90261239 /* ZJScrollPageViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 972ABEB83B60C9DE1B12AEA28CA17E52 /* ZJScrollPageViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B346492A2684D1CFB7D884B02E178F1 /* Pods-ZJScrollViewModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD22DD4711C112E937683E64CD97A5F /* Pods-ZJScrollViewModule_Example-dummy.m */; };
+		6E0F2013B723689A8E1C2DF0AEC35F84 /* ZJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03841E29D7B5A6DE2F3D53438B1DE062 /* ZJContentView.m */; };
+		714272F67D8B2FF2E43E217996660D73 /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A731690EB66E25037C397644723FF6 /* ZJSegmentStyle.m */; };
 		7C98FF5193572C0D50FAD0C4DE3CE9FF /* Pods-ZJScrollViewModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D977547BF1B63EC3BA5ED56302BC5D5 /* Pods-ZJScrollViewModule_Tests-dummy.m */; };
+		862D060B5F820D3B23A968472E40081F /* ZJScrollPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFCE7F938FD2A2CD433F9E0E25FD4D3 /* ZJScrollPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FCE925D9D5A316AFB308623B8654C6C /* UIView+ZJFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 105115D9C1FCFC4BCDA3FE113755DB40 /* UIView+ZJFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F14E7E125E942A5BBE48AF6CDC028F /* ZJScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F876B118DB6A01E8D85FC9C43DA7C9 /* ZJScrollPageView.m */; };
 		9948B058C5A0C79D2927E4CFB2FF86AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A68AFC901CED2C9F916B44CF3AAB298E /* ZJScrollViewModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 04732C5D4D0B591D2D70E4A5558F9A9E /* ZJScrollViewModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B07C40F2A05A90298329A6C210F91225 /* ZJScrollViewModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 837692FEF359A7BEFACF417E26C545B5 /* ZJScrollViewModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B186C95A89D1AADFECF83BC02903974B /* ZJScrollViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C762F90C77574A4AA8F70DD281B31 /* ZJScrollViewModule.m */; };
+		B3C1C1CE6E01B8D2E471BA5CE3AAFD39 /* ZJScrollViewModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D203D5498DEEF90F5EA60E9E6EB44 /* ZJScrollViewModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54E2187A964A57DCEE6332BA53C3285 /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFD16D0DA0E51CB30DB1C6E6FEB8D59 /* UIView+ZJFrame.m */; };
+		D7A67D7F4A74D1E31F4A4C6012A18E4D /* ZJScrollSegmentView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AB141BC11627B96A4D1D8334C96D97 /* ZJScrollSegmentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E43E44CDF5EB0E540370C95F5A19EE19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E7CBD5CA9883AD8DF31D2ABADA85B096 /* ZJScrollViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CB344B26E3ABE858D68DAE84285F5B /* ZJScrollViewModule.m */; };
+		EA77FD4FB8C9E65F306C67D8E72D919E /* ZJTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 913BE3735B50A6E260CCAECD4B663F68 /* ZJTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDFF0C5A0FE19B0F900CAF6F09A8BF95 /* Pods-ZJScrollViewModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D74000B8293D4E622516BAA513105EDB /* Pods-ZJScrollViewModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F052D1839193E5F7285D73C120518CC1 /* ZJScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234FF2236C467D9223503A0F2BFFB30 /* ZJScrollSegmentView.m */; };
+		F1D114CCF8E7A479E77283515FB8E6E6 /* ZJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCB2054FAD0E9F345873399D1592337 /* ZJTitleView.m */; };
+		F5758FE56F367E0A5783AE6BF6E6C0B2 /* UIViewController+ZJScrollPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8EC62DEC5F20EA76DD7C75DFC37E1E /* UIViewController+ZJScrollPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4A3111A49B6D053D35EB6286B35312 /* ZJSegmentStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = E6405415CC2FCB479580C79E03D79213 /* ZJSegmentStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,39 +55,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04732C5D4D0B591D2D70E4A5558F9A9E /* ZJScrollViewModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJScrollViewModule.h; path = ZJScrollViewModule/Classes/ZJScrollViewModule.h; sourceTree = "<group>"; };
+		0234FF2236C467D9223503A0F2BFFB30 /* ZJScrollSegmentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJScrollSegmentView.m; path = ZJScrollViewModule/Classes/ZJScrollView/ZJScrollSegmentView.m; sourceTree = "<group>"; };
+		03841E29D7B5A6DE2F3D53438B1DE062 /* ZJContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJContentView.m; path = ZJScrollViewModule/Classes/ZJScrollView/ZJContentView.m; sourceTree = "<group>"; };
+		105115D9C1FCFC4BCDA3FE113755DB40 /* UIView+ZJFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZJFrame.h"; path = "ZJScrollViewModule/Classes/ZJScrollView/UIView+ZJFrame.h"; sourceTree = "<group>"; };
 		119F3747A1B3C29463167E6BF0BF9C4F /* Pods-ZJScrollViewModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJScrollViewModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C78676BDB8E2454A1CB1386391870EB /* Pods-ZJScrollViewModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJScrollViewModule_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1DE9EFE469FFC398A1A83A42D27DA682 /* ZJScrollViewModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZJScrollViewModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E77B23D31D46F63DDF79410B5147F65 /* Pods-ZJScrollViewModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJScrollViewModule_Example-Info.plist"; sourceTree = "<group>"; };
-		2C92CF9895A6C36EE8A82B74A5D190BF /* ZJScrollViewModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJScrollViewModule-Info.plist"; sourceTree = "<group>"; };
+		20F876B118DB6A01E8D85FC9C43DA7C9 /* ZJScrollPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJScrollPageView.m; path = ZJScrollViewModule/Classes/ZJScrollView/ZJScrollPageView.m; sourceTree = "<group>"; };
 		2D9A2A918B40361D7597EC826BE3391F /* Pods-ZJScrollViewModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJScrollViewModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		35CB344B26E3ABE858D68DAE84285F5B /* ZJScrollViewModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJScrollViewModule.m; path = ZJScrollViewModule/Classes/ZJScrollViewModule.m; sourceTree = "<group>"; };
+		358EBA6AF9E2139BDED61A6D2A9B4844 /* ZJScrollViewModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJScrollViewModule-prefix.pch"; sourceTree = "<group>"; };
 		3CD22DD4711C112E937683E64CD97A5F /* Pods-ZJScrollViewModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJScrollViewModule_Example-dummy.m"; sourceTree = "<group>"; };
-		3DAE92A1DB90B605FF6B349DD08A523B /* ZJScrollViewModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJScrollViewModule.xcconfig; sourceTree = "<group>"; };
+		40C7E58AEA319937F77B2722A321BF4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		485CED5253052F2268C8049BEBF2B6BF /* Pods-ZJScrollViewModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJScrollViewModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4AFCE7F938FD2A2CD433F9E0E25FD4D3 /* ZJScrollPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJScrollPageView.h; path = ZJScrollViewModule/Classes/ZJScrollView/ZJScrollPageView.h; sourceTree = "<group>"; };
 		4D977547BF1B63EC3BA5ED56302BC5D5 /* Pods-ZJScrollViewModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJScrollViewModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		4F512B29B5BD84E1962C1C601F122315 /* Pods-ZJScrollViewModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJScrollViewModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		556015A127BFD53873FECF9767803CEC /* ZJScrollViewModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJScrollViewModule.framework; path = ZJScrollViewModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A731690EB66E25037C397644723FF6 /* ZJSegmentStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJSegmentStyle.m; path = ZJScrollViewModule/Classes/ZJScrollView/ZJSegmentStyle.m; sourceTree = "<group>"; };
 		5CFF042CE9ECCD0616FB4D2CB049BEDE /* Pods-ZJScrollViewModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJScrollViewModule_Tests.modulemap"; sourceTree = "<group>"; };
+		5EF00E1ABDE4BAF8688FDB19D52C1D9D /* ZJScrollViewModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJScrollViewModule.modulemap; sourceTree = "<group>"; };
+		5F0C762F90C77574A4AA8F70DD281B31 /* ZJScrollViewModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJScrollViewModule.m; path = ZJScrollViewModule/Classes/ZJScrollViewModule.m; sourceTree = "<group>"; };
 		79105147E9187B54057E8BA6D8B4E50E /* Pods-ZJScrollViewModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJScrollViewModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		7BDC351132D41BDAB33C32527C84521F /* Pods-ZJScrollViewModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJScrollViewModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7C5650F754A8A318BFA4485B30B99C0A /* ZJScrollViewModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJScrollViewModule.modulemap; sourceTree = "<group>"; };
-		837692FEF359A7BEFACF417E26C545B5 /* ZJScrollViewModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJScrollViewModule-umbrella.h"; sourceTree = "<group>"; };
-		8687C5169DFE2CC720F10F8AB73C3525 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C22C21C2823B611B58D53BD15B7575A /* UIViewController+ZJScrollPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ZJScrollPageController.m"; path = "ZJScrollViewModule/Classes/ZJScrollView/UIViewController+ZJScrollPageController.m"; sourceTree = "<group>"; };
+		8D8EC62DEC5F20EA76DD7C75DFC37E1E /* UIViewController+ZJScrollPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ZJScrollPageController.h"; path = "ZJScrollViewModule/Classes/ZJScrollView/UIViewController+ZJScrollPageController.h"; sourceTree = "<group>"; };
+		913BE3735B50A6E260CCAECD4B663F68 /* ZJTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJTitleView.h; path = ZJScrollViewModule/Classes/ZJScrollView/ZJTitleView.h; sourceTree = "<group>"; };
+		92F527CD919BB05F417C1CDCE19EDFAA /* ZJCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJCollectionView.m; path = ZJScrollViewModule/Classes/ZJScrollView/ZJCollectionView.m; sourceTree = "<group>"; };
+		93F9240714BA56D573CAB8A995626F8B /* ZJScrollViewModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJScrollViewModule-Info.plist"; sourceTree = "<group>"; };
 		9684AFD83D4DB5614DA54E1E01B46D35 /* Pods-ZJScrollViewModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJScrollViewModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		972ABEB83B60C9DE1B12AEA28CA17E52 /* ZJScrollPageViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJScrollPageViewDelegate.h; path = ZJScrollViewModule/Classes/ZJScrollView/ZJScrollPageViewDelegate.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0B42A9CB1E229B0822C15717A063E70 /* ZJScrollViewModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJScrollViewModule-dummy.m"; sourceTree = "<group>"; };
-		A9C5DFCFFB9389DC7A31473C95150AE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9F7D203D5498DEEF90F5EA60E9E6EB44 /* ZJScrollViewModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJScrollViewModule-umbrella.h"; sourceTree = "<group>"; };
+		A246DCAA7D940560D33CB3DF4739548A /* ZJCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJCollectionView.h; path = ZJScrollViewModule/Classes/ZJScrollView/ZJCollectionView.h; sourceTree = "<group>"; };
+		AC0FA74A1D21B3C757B536301C2FD7D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AC47FAA3CB45D16D211255FC33577E3C /* Pods-ZJScrollViewModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJScrollViewModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AFEA2B7785C48DA26C429B609B6DAF4E /* ZJContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJContentView.h; path = ZJScrollViewModule/Classes/ZJScrollView/ZJContentView.h; sourceTree = "<group>"; };
 		B953E6B31BC163434EA274D1B4764BC0 /* Pods-ZJScrollViewModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJScrollViewModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BC07AEEB770B357222D889A6287EBE5F /* ZJScrollViewModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJScrollViewModule-prefix.pch"; sourceTree = "<group>"; };
+		BD49B4D69D9FCBC9975CA7E8DE5B7B9B /* ZJScrollViewModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJScrollViewModule.xcconfig; sourceTree = "<group>"; };
 		C086874DE9A1DDF1C7E228927F8BD32A /* Pods-ZJScrollViewModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJScrollViewModule_Example.modulemap"; sourceTree = "<group>"; };
 		C64E5C84D1AD34DDE0C330417330A60B /* Pods-ZJScrollViewModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJScrollViewModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFCB2054FAD0E9F345873399D1592337 /* ZJTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJTitleView.m; path = ZJScrollViewModule/Classes/ZJScrollView/ZJTitleView.m; sourceTree = "<group>"; };
+		D62F725438A92F4C735A6A4DA15F1D69 /* ZJScrollViewModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJScrollViewModule.h; path = ZJScrollViewModule/Classes/ZJScrollViewModule.h; sourceTree = "<group>"; };
 		D74000B8293D4E622516BAA513105EDB /* Pods-ZJScrollViewModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJScrollViewModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		DCFD16D0DA0E51CB30DB1C6E6FEB8D59 /* UIView+ZJFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZJFrame.m"; path = "ZJScrollViewModule/Classes/ZJScrollView/UIView+ZJFrame.m"; sourceTree = "<group>"; };
 		DEE279B4F7323CA2FA58914F45158142 /* Pods_ZJScrollViewModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJScrollViewModule_Example.framework; path = "Pods-ZJScrollViewModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C3A5FF4E44D7D9BCAA336826110E17 /* Pods_ZJScrollViewModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJScrollViewModule_Tests.framework; path = "Pods-ZJScrollViewModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6405415CC2FCB479580C79E03D79213 /* ZJSegmentStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJSegmentStyle.h; path = ZJScrollViewModule/Classes/ZJScrollView/ZJSegmentStyle.h; sourceTree = "<group>"; };
+		E6F4C082E86B0BA35B77AD28A98E2851 /* ZJScrollViewModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJScrollViewModule-dummy.m"; sourceTree = "<group>"; };
+		EFD704273816DCE27F6927CF936BFF93 /* ZJScrollViewModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZJScrollViewModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F9AB141BC11627B96A4D1D8334C96D97 /* ZJScrollSegmentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJScrollSegmentView.h; path = ZJScrollViewModule/Classes/ZJScrollView/ZJScrollSegmentView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +135,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09108559D6FE3036CBAF73080310D13A /* ZJScrollViewModule */ = {
+			isa = PBXGroup;
+			children = (
+				D62F725438A92F4C735A6A4DA15F1D69 /* ZJScrollViewModule.h */,
+				5F0C762F90C77574A4AA8F70DD281B31 /* ZJScrollViewModule.m */,
+				56B5F65895DCD57AAD0E24C649C5E9DD /* Pod */,
+				435B3C17FB7539CD3C42BB351EEF05C9 /* Support Files */,
+				1AA64F5C11E33C983E42219D7A0D0C2C /* ZJScrollView */,
+			);
+			name = ZJScrollViewModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		1822735AC7EFD4D859FEC6D3BD41092B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,12 +158,50 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		42F938598695BD86B95BD0B51CD8B049 /* Development Pods */ = {
+		1AA64F5C11E33C983E42219D7A0D0C2C /* ZJScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				AA5A7CE4FA2A4C97C22D119BA8FC51F6 /* ZJScrollViewModule */,
+				105115D9C1FCFC4BCDA3FE113755DB40 /* UIView+ZJFrame.h */,
+				DCFD16D0DA0E51CB30DB1C6E6FEB8D59 /* UIView+ZJFrame.m */,
+				8D8EC62DEC5F20EA76DD7C75DFC37E1E /* UIViewController+ZJScrollPageController.h */,
+				7C22C21C2823B611B58D53BD15B7575A /* UIViewController+ZJScrollPageController.m */,
+				A246DCAA7D940560D33CB3DF4739548A /* ZJCollectionView.h */,
+				92F527CD919BB05F417C1CDCE19EDFAA /* ZJCollectionView.m */,
+				AFEA2B7785C48DA26C429B609B6DAF4E /* ZJContentView.h */,
+				03841E29D7B5A6DE2F3D53438B1DE062 /* ZJContentView.m */,
+				4AFCE7F938FD2A2CD433F9E0E25FD4D3 /* ZJScrollPageView.h */,
+				20F876B118DB6A01E8D85FC9C43DA7C9 /* ZJScrollPageView.m */,
+				972ABEB83B60C9DE1B12AEA28CA17E52 /* ZJScrollPageViewDelegate.h */,
+				F9AB141BC11627B96A4D1D8334C96D97 /* ZJScrollSegmentView.h */,
+				0234FF2236C467D9223503A0F2BFFB30 /* ZJScrollSegmentView.m */,
+				E6405415CC2FCB479580C79E03D79213 /* ZJSegmentStyle.h */,
+				57A731690EB66E25037C397644723FF6 /* ZJSegmentStyle.m */,
+				913BE3735B50A6E260CCAECD4B663F68 /* ZJTitleView.h */,
+				CFCB2054FAD0E9F345873399D1592337 /* ZJTitleView.m */,
+			);
+			name = ZJScrollView;
+			sourceTree = "<group>";
+		};
+		23E97798198D461A6CAF953818FADC41 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09108559D6FE3036CBAF73080310D13A /* ZJScrollViewModule */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		435B3C17FB7539CD3C42BB351EEF05C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EF00E1ABDE4BAF8688FDB19D52C1D9D /* ZJScrollViewModule.modulemap */,
+				BD49B4D69D9FCBC9975CA7E8DE5B7B9B /* ZJScrollViewModule.xcconfig */,
+				E6F4C082E86B0BA35B77AD28A98E2851 /* ZJScrollViewModule-dummy.m */,
+				93F9240714BA56D573CAB8A995626F8B /* ZJScrollViewModule-Info.plist */,
+				358EBA6AF9E2139BDED61A6D2A9B4844 /* ZJScrollViewModule-prefix.pch */,
+				9F7D203D5498DEEF90F5EA60E9E6EB44 /* ZJScrollViewModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZJScrollViewModule";
 			sourceTree = "<group>";
 		};
 		5288DFDAB81B6719EE957AB6A302202F /* Pods-ZJScrollViewModule_Example */ = {
@@ -136,28 +221,14 @@
 			path = "Target Support Files/Pods-ZJScrollViewModule_Example";
 			sourceTree = "<group>";
 		};
-		55E557EB0250A69976948A9C8AF172B0 /* Pod */ = {
+		56B5F65895DCD57AAD0E24C649C5E9DD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8687C5169DFE2CC720F10F8AB73C3525 /* LICENSE */,
-				A9C5DFCFFB9389DC7A31473C95150AE2 /* README.md */,
-				1DE9EFE469FFC398A1A83A42D27DA682 /* ZJScrollViewModule.podspec */,
+				40C7E58AEA319937F77B2722A321BF4A /* LICENSE */,
+				AC0FA74A1D21B3C757B536301C2FD7D1 /* README.md */,
+				EFD704273816DCE27F6927CF936BFF93 /* ZJScrollViewModule.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		57883399F7424797203F985FFBB6B565 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7C5650F754A8A318BFA4485B30B99C0A /* ZJScrollViewModule.modulemap */,
-				3DAE92A1DB90B605FF6B349DD08A523B /* ZJScrollViewModule.xcconfig */,
-				A0B42A9CB1E229B0822C15717A063E70 /* ZJScrollViewModule-dummy.m */,
-				2C92CF9895A6C36EE8A82B74A5D190BF /* ZJScrollViewModule-Info.plist */,
-				BC07AEEB770B357222D889A6287EBE5F /* ZJScrollViewModule-prefix.pch */,
-				837692FEF359A7BEFACF417E26C545B5 /* ZJScrollViewModule-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZJScrollViewModule";
 			sourceTree = "<group>";
 		};
 		805A2EEAA4F9B956592714B2CBD25A09 /* Pods-ZJScrollViewModule_Tests */ = {
@@ -184,23 +255,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		AA5A7CE4FA2A4C97C22D119BA8FC51F6 /* ZJScrollViewModule */ = {
-			isa = PBXGroup;
-			children = (
-				04732C5D4D0B591D2D70E4A5558F9A9E /* ZJScrollViewModule.h */,
-				35CB344B26E3ABE858D68DAE84285F5B /* ZJScrollViewModule.m */,
-				55E557EB0250A69976948A9C8AF172B0 /* Pod */,
-				57883399F7424797203F985FFBB6B565 /* Support Files */,
-			);
-			name = ZJScrollViewModule;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				42F938598695BD86B95BD0B51CD8B049 /* Development Pods */,
+				23E97798198D461A6CAF953818FADC41 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				1822735AC7EFD4D859FEC6D3BD41092B /* Products */,
 				EBFD572B7F83503C22D6801BF629089D /* Targets Support Files */,
@@ -235,20 +294,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88F108F3A8757212872CE1ED490ED6B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCE925D9D5A316AFB308623B8654C6C /* UIView+ZJFrame.h in Headers */,
+				F5758FE56F367E0A5783AE6BF6E6C0B2 /* UIViewController+ZJScrollPageController.h in Headers */,
+				1F852F95920DEA751C08C48ADE4EC16B /* ZJCollectionView.h in Headers */,
+				262423E384537029B4D4F7FDDDE82732 /* ZJContentView.h in Headers */,
+				862D060B5F820D3B23A968472E40081F /* ZJScrollPageView.h in Headers */,
+				5E519B8FF92C888FE477E65F90261239 /* ZJScrollPageViewDelegate.h in Headers */,
+				D7A67D7F4A74D1E31F4A4C6012A18E4D /* ZJScrollSegmentView.h in Headers */,
+				B3C1C1CE6E01B8D2E471BA5CE3AAFD39 /* ZJScrollViewModule-umbrella.h in Headers */,
+				012637A5B709DB4BE4ED3FAA2A8457E7 /* ZJScrollViewModule.h in Headers */,
+				FC4A3111A49B6D053D35EB6286B35312 /* ZJSegmentStyle.h in Headers */,
+				EA77FD4FB8C9E65F306C67D8E72D919E /* ZJTitleView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B279ABFC9B147EA3BD4DE2696E057791 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EDFF0C5A0FE19B0F900CAF6F09A8BF95 /* Pods-ZJScrollViewModule_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2F8716379C0129616F164CE4B846867 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B07C40F2A05A90298329A6C210F91225 /* ZJScrollViewModule-umbrella.h in Headers */,
-				A68AFC901CED2C9F916B44CF3AAB298E /* ZJScrollViewModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +346,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27BC3F78291323A60AB615C43671A33F /* Build configuration list for PBXNativeTarget "ZJScrollViewModule" */;
 			buildPhases = (
-				B2F8716379C0129616F164CE4B846867 /* Headers */,
-				10219AFEAD6812D38E57DF5226B30FA3 /* Sources */,
+				88F108F3A8757212872CE1ED490ED6B0 /* Headers */,
+				BB2C098B2C673563F0498508D687E27A /* Sources */,
 				AABF97D9C880F3EEB73600C97EE279E1 /* Frameworks */,
 				8D19326117502700684631FCCD1BBA66 /* Resources */,
 			);
@@ -364,20 +432,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		10219AFEAD6812D38E57DF5226B30FA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43425CE5B028B52AFE458EF0433B328C /* ZJScrollViewModule-dummy.m in Sources */,
-				E7CBD5CA9883AD8DF31D2ABADA85B096 /* ZJScrollViewModule.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7BFCE981E82A53823E42ADE908744AB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7C98FF5193572C0D50FAD0C4DE3CE9FF /* Pods-ZJScrollViewModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2C098B2C673563F0498508D687E27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54E2187A964A57DCEE6332BA53C3285 /* UIView+ZJFrame.m in Sources */,
+				4F8CF550FBF5AA268DD1BC96F2B5F4C7 /* UIViewController+ZJScrollPageController.m in Sources */,
+				3F4A6506C97AAA7827319A47497A6F54 /* ZJCollectionView.m in Sources */,
+				6E0F2013B723689A8E1C2DF0AEC35F84 /* ZJContentView.m in Sources */,
+				96F14E7E125E942A5BBE48AF6CDC028F /* ZJScrollPageView.m in Sources */,
+				F052D1839193E5F7285D73C120518CC1 /* ZJScrollSegmentView.m in Sources */,
+				1C8C7528D98C9067E9A58851DEC23F1E /* ZJScrollViewModule-dummy.m in Sources */,
+				B186C95A89D1AADFECF83BC02903974B /* ZJScrollViewModule.m in Sources */,
+				714272F67D8B2FF2E43E217996660D73 /* ZJSegmentStyle.m in Sources */,
+				F1D114CCF8E7A479E77283515FB8E6E6 /* ZJTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,7 +609,7 @@
 		};
 		71E69F78D6E0A0A7BB48EBAB685915D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DAE92A1DB90B605FF6B349DD08A523B /* ZJScrollViewModule.xcconfig */;
+			baseConfigurationReference = BD49B4D69D9FCBC9975CA7E8DE5B7B9B /* ZJScrollViewModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -631,7 +707,7 @@
 		};
 		930139089D8324E6134D3F4570600B77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DAE92A1DB90B605FF6B349DD08A523B /* ZJScrollViewModule.xcconfig */;
+			baseConfigurationReference = BD49B4D69D9FCBC9975CA7E8DE5B7B9B /* ZJScrollViewModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

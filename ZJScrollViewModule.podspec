@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJScrollViewModule'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of ZJScrollViewModule.'
 
 
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-    s.subspec 'ZJScrollView' do |ss|
-    ss.source_files = 'ZJScrollViewModule/Classes/**/*.{h,m}'
-    end
+s.subspec 'ZJScrollView' do |ss|
+ss.source_files = 'ZJScrollViewModule/Classes/ZJScrollView/*.*'
+end
 end
